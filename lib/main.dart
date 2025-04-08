@@ -11,11 +11,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        body: Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-         children: [
-          Text("HELLO WORLD!")
-         ], 
+        appBar: AppBar(
+          title: Text("Home Page"),
+          centerTitle: true,
         ),
 
       ),
